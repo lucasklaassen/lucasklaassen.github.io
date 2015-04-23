@@ -692,65 +692,6 @@ table.alt thead {
 table.alt tfoot {
   border-top: 0;
 }
-
-/* Button */
-input[type="submit"],
-input[type="reset"],
-input[type="button"],
-.action-button {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  -o-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
-  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-  -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-  background-color: transparent;
-  border: none;
-  color: #787878;
-  cursor: pointer;
-  display: inline-block;
-  font-weight: 400;
-  min-width: 6em;
-  padding: 0 1.5em;
-  text-align: center;
-  text-decoration: none;
-}
-input[type="submit"],
-input[type="reset"],
-input[type="button"],
-.track-button {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  -o-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
-  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-  -o-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-  background-color: transparent;
-  border: none;
-  color: #787878;
-  cursor: pointer;
-  display: inline-block;
-  font-weight: 400;
-  min-width: 6em;
-  padding: 0;
-  text-align: center;
-  text-decoration: none;
-}
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
-.button:hover, .track-button:hover, .action-button:hover {
-  border-color: #49bf9d;
-  color: #49bf9d;
-}
 input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active,
