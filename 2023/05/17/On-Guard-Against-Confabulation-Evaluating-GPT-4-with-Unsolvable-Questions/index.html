@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <!--Description-->
+
+    
+
+    
+        <meta name="description" content="Introduction:In today’s rapidly evolving technological landscape, Large Language Models (LLMs) such as GPT-4 are becoming increasingly sophisticated. "/>
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Lucas Klaassen"/>
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Testing Experiment Reveals GPT-4&#39;s 46% Accuracy in Detecting Unsolvable Questions"/>
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="Introduction:In today’s rapidly evolving technological landscape, Large Language Models (LLMs) such as GPT-4 are becoming increasingly sophisticated. "/>
+    
+
+    <!--Open Graph Site Name-->
+        <meta property="og:site_name" content="Lucas Klaassen"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article"/>
+    
+
+    <!--Page Cover-->
+    
+    
+        <meta property="og:image" content="https://www.lucasklaassen.comimg/home-bg.jpg"/>
+    
+
+        <meta name="twitter:card" content="summary_large_image"/>
+
+    
+
+    
+        <meta name="twitter:image" content="https://www.lucasklaassen.comimg/home-bg.jpg"/>
+    
+
+    <!-- Title -->
+    
+    <title>Testing Experiment Reveals GPT-4&#39;s 46% Accuracy in Detecting Unsolvable Questions - Lucas Klaassen</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
+
+    <!-- Custom CSS -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css"/>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet"/>
+
+    <!-- Google Analytics -->
+    
+
+
+    <!-- favicon -->
+    
+
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Lucas Klaassen</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/">
+                            
+                                Home
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives">
+                            
+                                Archives
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a target="_blank" rel="noopener" href="https://github.com/lucasklaassen">
+                            
+                                <i class="fa fa-github fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>Testing Experiment Reveals GPT-4's 46% Accuracy in Detecting Unsolvable Questions</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2023-05-17
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction:"></a>Introduction:</h2><p>In today’s rapidly evolving technological landscape, Large Language Models (LLMs) such as GPT-4 are becoming increasingly sophisticated. However, these models are not without their limitations, one of the main ones being confabulation, where the model generates information that might not be factual or accurate. To combat this, we utilized the OpenAI Evals framework, a tool designed for systematically testing and improving the performance of LLMs. In this post, we will guide you through our process of creating an evaluation that focuses on unsolvable questions alongside contextual information, aimed at reducing confabulation in GPT-4.</p>
+<h2 id="1-Defining-Confabulation-and-Unsolvable-Questions"><a href="#1-Defining-Confabulation-and-Unsolvable-Questions" class="headerlink" title="1. Defining Confabulation and Unsolvable Questions:"></a>1. Defining Confabulation and Unsolvable Questions:</h2><p>Confabulation refers to the generation of information by the language model that might not be factual or substantiated. Our primary objective with the “Unsolvable Questions Evaluation” was to assess GPT-4’s capability in discerning and responding aptly to these unsolvable questions alongside contextual information, thereby highlighting its tendencies to confabulate. As more people build contextual integrations with GPT, it will be important that GPT can deal with answering questions truthfully alongside context.</p>
+<h2 id="2-Harnessing-the-Power-of-OpenAI-Evals"><a href="#2-Harnessing-the-Power-of-OpenAI-Evals" class="headerlink" title="2. Harnessing the Power of OpenAI Evals:"></a>2. Harnessing the Power of OpenAI Evals:</h2><p>In order to effectively assess GPT-4’s performance, we utilized the <a target="_blank" rel="noopener" href="https://github.com/openai/evals">OpenAI Evals</a> framework. This tool facilitated a structured approach to our evaluation process, ensuring we targeted and measured key performance indicators in a systematic way.</p>
+<h2 id="3-Building-the-Dataset"><a href="#3-Building-the-Dataset" class="headerlink" title="3. Building the Dataset:"></a>3. Building the Dataset:</h2><p>The dataset used for our evaluation was a modified version of the Stanford Question Answering Dataset (SQuAD), a collection of over 150,000 crowd-sourced questions based on Wikipedia articles. Our focus was on the SQuAD2.0 dataset, which includes over 50,000 unsolvable questions. In order to adapt this dataset for our purposes, we reformatted it into a chat format that GPT-4 could understand, concentrating on 318 samples containing unsolvable questions.</p>
+<p>This section will detail the technical process of how we extracted a unique set of questions from the larger SQuAD2.0 dataset. We’ll provide a walkthrough of the Node.js script used to parse through the dataset and curate our subset of examples.</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">/* SQuAD2.0 data converter</span><br><span class="line"></span><br><span class="line">BEFORE PROCEEDING: Download train.json from the official repo:</span><br><span class="line">https://rajpurkar.github.io/SQuAD-explorer/dataset/train-v2.0.json</span><br><span class="line"></span><br><span class="line">Download the file, rename it to train.json, and put it in this folder, and you are ready to go. :)</span><br><span class="line"></span><br><span class="line"><span class="emphasis">*/</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">const fs = require(&quot;fs&quot;);</span></span><br><span class="line"><span class="emphasis">const &#123; Transform &#125; = require(&quot;stream&quot;);</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">const inputFile = fs.readFileSync(&quot;train.json&quot;);</span></span><br><span class="line"><span class="emphasis">const outputFile = fs.createWriteStream(&quot;samples.jsonl&quot;);</span></span><br></pre></td></tr></table></figure>
+<p>In this initial part of the script, we’re loading the <code>fs</code> (file system) and <code>stream</code> modules from Node.js. We then read the input file (<code>train.json</code>) and prepare an output file stream (<code>samples.jsonl</code>) for writing.</p>
+<p>The next chunk of code is our <code>Transform</code> stream, which is used to parse and reformat each line of the input data:</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">const processLine = new Transform(&#123;</span><br><span class="line">  objectMode: true,</span><br><span class="line">  transform(line, <span class="emphasis">_, done) &#123;</span></span><br><span class="line"><span class="emphasis">    if (!line) return done();</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">    let obj;</span></span><br><span class="line"><span class="emphasis">    try &#123;</span></span><br><span class="line"><span class="emphasis">      obj = JSON.parse(line);</span></span><br><span class="line"><span class="emphasis">    &#125; catch (err) &#123;</span></span><br><span class="line"><span class="emphasis">      return done(new Error(`Failed to parse JSON: $&#123;err.message&#125;`));</span></span><br><span class="line"><span class="emphasis">    &#125;</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">    const indexToAnswer = (bool) =&gt; &#123;</span></span><br><span class="line"><span class="emphasis">      if (bool) &#123;</span></span><br><span class="line"><span class="emphasis">        return &quot;Unsolveable&quot;;</span></span><br><span class="line"><span class="emphasis">      &#125;</span></span><br><span class="line"><span class="emphasis">      return &quot;Solveable&quot;;</span></span><br><span class="line"><span class="emphasis">    &#125;;</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">    const transformedObj = &#123;</span></span><br><span class="line"><span class="emphasis">      input: [</span></span><br><span class="line"><span class="emphasis">        &#123; role: &quot;system&quot;, content: &#x27;You are UnsolvableGPT. You will be provided a question and some context for the question. Using only the context to answer the question determine if it is &quot;Solveable&quot; or &quot;Unsolveable&quot;. Respond with only one word without punctuation, either: &quot;Solveable&quot;: The submitted question is solvable with the context provided alongside it and no other outside information OR &quot;Unsolveable&quot;: The submitted question is unsolvable with the context provided alongside it. There is not enough context to answer the question. Remember, only answer with &quot;Solveable&quot; OR &quot;Unsolveable&quot;, do not include anything else.&#x27;&#125;,</span></span><br><span class="line"><span class="emphasis">        &#123; role: &quot;user&quot;, content: `Question: $&#123;obj[&quot;question&quot;]&#125;\n Context: $&#123;obj[&quot;context&quot;]&#125;` &#125;</span></span><br><span class="line"><span class="emphasis">      ], ideal: indexToAnswer(obj[&quot;is_</span>impossible&quot;]),</span><br><span class="line"><span class="code">    &#125;;</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">    this.push(JSON.stringify(transformedObj) + &quot;\n&quot;);</span></span><br><span class="line"><span class="code">    done();</span></span><br><span class="line"><span class="code">  &#125;,</span></span><br><span class="line"><span class="code">&#125;);</span></span><br></pre></td></tr></table></figure>
+
+<p>The <code>transform</code> function parses each line into JSON and checks for the question’s solvability. It then formats this information into a new JSON object that’s suitable for our chat model.</p>
+<p>Finally, we parse the entire input file, iterate over the contents, and selectively write the questions we’re interested in to our output file:</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">const parsedFile = JSON.parse(inputFile);</span><br><span class="line">console.log(parsedFile);</span><br><span class="line"></span><br><span class="line">for (let i = 0; i &lt; parsedFile.data.length; i++) &#123;</span><br><span class="line">  const currentDocument = parsedFile.data[i];</span><br><span class="line">  currentDocument.paragraphs.forEach((paragraph) =&gt; &#123;</span><br><span class="line"><span class="code">    const context = paragraph.context;</span></span><br><span class="line"><span class="code">    // Generate a diverse training set by picking only 2 questions from each topic</span></span><br><span class="line"><span class="code">    // Ensure an equal balance of unsolvable and solvable questions</span></span><br><span class="line"><span class="code">    // Randomly select</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"> questions</span><br><span class="line"><span class="code">    if (context.length &gt; 1500 || context.length &lt; 500 || Math.random() &lt; 0.98) &#123;</span></span><br><span class="line"><span class="code">      return;</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code">    const possibleToAnswer = paragraph.qas.find(qa =&gt; !Boolean(qa.is_impossible));</span></span><br><span class="line"><span class="code">    const impossibleToAnswer = paragraph.qas.find(qa =&gt; Boolean(qa.is_impossible));</span></span><br><span class="line"><span class="code">    if(possibleToAnswer &amp;&amp; impossibleToAnswer) &#123;</span></span><br><span class="line"><span class="code">      possibleToAnswer.context = context;</span></span><br><span class="line"><span class="code">      impossibleToAnswer.context = context;</span></span><br><span class="line"><span class="code">      processLine.write(JSON.stringify(possibleToAnswer) + &quot;\n&quot;);</span></span><br><span class="line"><span class="code">      processLine.write(JSON.stringify(impossibleToAnswer) + &quot;\n&quot;);</span></span><br><span class="line"><span class="code">    &#125;</span></span><br><span class="line"><span class="code">  &#125;);</span></span><br><span class="line"><span class="code">&#125;</span></span><br><span class="line"><span class="code">processLine.pipe(outputFile);</span></span><br><span class="line"><span class="code">outputFile.on(&quot;error&quot;, (err) =&gt; console.error(`Error: $&#123;err.message&#125;`)).on(&quot;finish&quot;, () =&gt; console.log(&quot;Output file created successfully.&quot;));</span></span><br></pre></td></tr></table></figure>
+
+<p>The loop traverses each document, paragraph by paragraph, with a focus on creating a balanced and diverse set of questions for the model. We are only considering context lengths between 500 and 1500 characters to ensure manageability. We also impose a randomness factor to promote diversity in the final selection. For each paragraph that meets these criteria, we look for one solvable and one unsolvable question, if available. We then write both to our output file, thereby creating a balanced subset of solvable and unsolvable questions.</p>
+<h2 id="4-Conducting-the-Evaluation-and-Highlighting-Failures"><a href="#4-Conducting-the-Evaluation-and-Highlighting-Failures" class="headerlink" title="4. Conducting the Evaluation and Highlighting Failures:"></a>4. Conducting the Evaluation and Highlighting Failures:</h2><p>After preparing the dataset, we ran the evaluation using GPT-3.5, for efficiency and cost-effectiveness. Through this process, we were able to document instances where the model was unable to provide accurate answers.</p>
+<p>Taking these failure logs, we devised a new script that parses these logs, identifies instances where the model could not deliver the right answers, and isolates them into a separate file. This method enabled us to run the script multiple times, resulting in a larger dataset that also illustrated a broader range of failure cases with which the model struggled.</p>
+<p>Here’s the script that accomplishes this task:</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">/*</span><br><span class="line">  Grab the file from the last run: /tmp/evallogs/<span class="language-xml"><span class="tag">&lt;<span class="name">idxxx_gpt-3.5-turbo_impossible_detector</span>&gt;</span></span>.jsonl</span><br><span class="line">  Rename it to run.jsonl and put it in a folder called logs/ within this folder.</span><br><span class="line"></span><br><span class="line">  Run this file and the failures will be outputted to a file named failure-samples.jsonl</span><br><span class="line">  You can now keep these examples and combine them with other runs to get a good sample set that GPT struggles with</span><br><span class="line"><span class="emphasis">*/</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">const fs = require(&quot;fs&quot;);</span></span><br><span class="line"><span class="emphasis">const readline = require(&quot;readline&quot;);</span></span><br><span class="line"><span class="emphasis">const &#123; Transform &#125; = require(&quot;stream&quot;);</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">const inputFile = fs.createReadStream(&quot;logs/run.jsonl&quot;);</span></span><br><span class="line"><span class="emphasis">const outputFile = fs.createWriteStream(&quot;failure-samples.jsonl&quot;);</span></span><br></pre></td></tr></table></figure>
+
+<p>The script begins by importing the required modules and setting up the streams for the input and output files. </p>
+<p>Then we create a <code>Transform</code> stream, similar to the one in <code>convert.js</code>, which essentially copies each line from the input file to the output file.</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">const processLine = new Transform(&#123;</span><br><span class="line">  objectMode: true,</span><br><span class="line">  transform(line, <span class="emphasis">_, done) &#123;</span></span><br><span class="line"><span class="emphasis">    if (!line) return done();</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">    let obj;</span></span><br><span class="line"><span class="emphasis">    try &#123;</span></span><br><span class="line"><span class="emphasis">      obj = line;</span></span><br><span class="line"><span class="emphasis">    &#125; catch (err) &#123;</span></span><br><span class="line"><span class="emphasis">      return done(new Error(`Failed to parse JSON: $&#123;err.message&#125;`));</span></span><br><span class="line"><span class="emphasis">    &#125;</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">    const transformedObj = obj;</span></span><br><span class="line"><span class="emphasis"></span></span><br><span class="line"><span class="emphasis">    this.push(transformedObj + &quot;\n&quot;);</span></span><br><span class="line"><span class="emphasis">    done();</span></span><br><span class="line"><span class="emphasis">  &#125;,</span></span><br><span class="line"><span class="emphasis">&#125;);</span></span><br></pre></td></tr></table></figure>
+
+<p>Next, we create a function <code>parseLines</code> that identifies and processes the failures from the log. The function looks for the ‘match’ lines where <code>correct</code> is false (meaning the model got the answer wrong), and pairs each one with its preceding ‘prompt’ line to preserve the context of the failed question. </p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">const parseLines = (line, previousLine) =&gt; &#123;</span><br><span class="line">  if(line &amp;&amp; previousLine &amp;&amp; !JSON.parse(previousLine).spec &amp;&amp; JSON.parse(line).type === &quot;match&quot; &amp;&amp; !JSON.parse(line).data.correct) &#123;</span><br><span class="line"><span class="code">    const promptData = JSON.parse(previousLine).data;</span></span><br><span class="line"><span class="code">    let newLine = &#123;&#125;;</span></span><br><span class="line"><span class="code">    newLine.input = promptData.prompt;</span></span><br><span class="line"><span class="code">    newLine.ideal = JSON.parse(line).data.expected;</span></span><br><span class="line"><span class="code">    processLine.write(JSON.stringify(newLine));</span></span><br><span class="line"><span class="code">  &#125;</span></span><br><span class="line"><span class="code">&#125;;</span></span><br></pre></td></tr></table></figure>
+
+<p>Finally, we use Node’s <code>readline</code> interface to read the input file line by line, calling <code>parseLines</code> for each one. The results are piped to the output file.</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">const lineLimit = 1500;</span><br><span class="line"></span><br><span class="line">const rl = readline.createInterface(&#123; input: inputFile, crlfDelay: Infinity &#125;);</span><br><span class="line">let i=0;</span><br><span class="line">let previousLine;</span><br><span class="line">rl.on(&quot;line&quot;, (line) =&gt; &#123;</span><br><span class="line">  if(i &lt; lineLimit) &#123;</span><br><span class="line"><span class="code">    parseLines(line, previousLine);</span></span><br><span class="line"><span class="code">    previousLine = line;</span></span><br><span class="line"><span class="code">    i++</span></span><br><span class="line"><span class="code">  &#125;</span></span><br><span class="line"><span class="code">&#125;);</span></span><br><span class="line"><span class="code">processLine.pipe(outputFile);</span></span><br><span class="line"><span class="code">outputFile.on(&quot;error&quot;, (err) =&gt; console.error(`Error: $&#123;err.message&#125;`)).on(&quot;finish&quot;, () =&gt; console.log(&quot;Output file</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"> created successfully.&quot;));</span><br><span class="line">rl.on(&quot;close&quot;, () =&gt; &#123; processLine.end(); &#125;);</span><br></pre></td></tr></table></figure>
+
+<p>This script produces a file named <code>failure-samples.jsonl</code>, which contains all the failure cases from the logs. These examples can be further combined with others from additional runs to create a robust set of challenging samples for the model to improve upon.</p>
+<h2 id="5-Understanding-the-Importance-of-the-Evaluation"><a href="#5-Understanding-the-Importance-of-the-Evaluation" class="headerlink" title="5. Understanding the Importance of the Evaluation:"></a>5. Understanding the Importance of the Evaluation:</h2><p>GPT-4, with its advanced capabilities, is shaping up to be a potent learning assistant. Evaluating its ability to discern solvable from unsolvable questions based on the provided context is crucial, especially as we develop more advanced applications atop this technology. This evaluation not only provides insights into potential shortcomings but also measures GPT-4’s capability to dodge trick questions.</p>
+<p>As GPT-4 becomes accessible to individual developers and organizations, it is being deployed in more complex, context-based workflows. An evaluation like ours provides valuable insights and learnings, benefiting the wider community.</p>
+<h2 id="6-Sharing-the-Results-of-the-Evaluation"><a href="#6-Sharing-the-Results-of-the-Evaluation" class="headerlink" title="6. Sharing the Results of the Evaluation:"></a>6. Sharing the Results of the Evaluation:</h2><p>After identifying a set of challenging questions where GPT-3.5 consistently faltered, we decided to take the evaluation up a notch. Our aim was not just to assess the model’s performance, but also to utilize this as a learning opportunity for future iterations and updates to the model.</p>
+<p>Our initial evaluation showed GPT-4 outperforming its predecessor, GPT-3.5, with an accuracy of 0.46 compared to 0.13. These promising results inspire us to continue refining and expanding our evaluation, further improving GPT-4’s ability to handle unsolvable questions and reduce confabulation. However, we observed that GPT-4, despite its advancement, was not immune to failures. These findings, shared openly, will drive further improvements in subsequent versions of GPT models.</p>
+<p>In conclusion, our “Unsolvable Questions Evaluation” sheds light on the confabulation challenge and the advancements made by GPT-4 in discerning unsolvable questions based on contextual information. The evaluation process, utilizing OpenAI Evals, has provided valuable insights and learnings for improving the capabilities of large language models.</p>
+<p>We eagerly anticipate OpenAI’s feedback on our experiment and look forward to contributing to the development of more reliable and effective AI systems. To explore the details of our evaluation and follow its progress, you can check out the open pull request here. Together, we can continue advancing the boundaries of AI and fostering responsible AI usage.</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/openai/evals/pull/981">Github Pull Request</a></p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr />
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+
+                    
+
+                    
+                        <li>
+                            <a href="https://github.com/lucasklaassen" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">&copy; 2023 Lucas Klaassen<br></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+
+
+</body>
+
+</html>
