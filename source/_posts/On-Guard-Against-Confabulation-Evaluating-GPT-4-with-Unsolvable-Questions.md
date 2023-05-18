@@ -205,12 +205,10 @@ As GPT-4 becomes accessible to individual developers and organizations, it is be
 
 ## 6. Sharing the Results of the Evaluation:
 
-After identifying a set of challenging questions where GPT-3.5 consistently faltered, we decided to take the evaluation up a notch. Our aim was not just to assess the model's performance, but also to utilize this as a learning opportunity for future iterations and updates to the model.
+Upon discovering questions that stumped GPT-3.5, we aimed to test GPT-4's performance and submit the results for OpenAI to work on its enhancement. Our initial evaluation showed GPT-4 outperforming its predecessor, GPT-3.5, with an accuracy of 0.46 compared to 0.13.
 
-Our initial evaluation showed GPT-4 outperforming its predecessor, GPT-3.5, with an accuracy of 0.46 compared to 0.13. These promising results inspire us to continue refining and expanding our evaluation, further improving GPT-4's ability to handle unsolvable questions and reduce confabulation. However, we observed that GPT-4, despite its advancement, was not immune to failures. These findings, shared openly, will drive further improvements in subsequent versions of GPT models.
+Our “Unsolvable Questions Evaluation” highlighted GPT-4's progress in discerning complex questions and its confabulation issue. Using OpenAI Evals, we gained crucial insights into enhancing large language models.
 
-In conclusion, our "Unsolvable Questions Evaluation" sheds light on the confabulation challenge and the advancements made by GPT-4 in discerning unsolvable questions based on contextual information. The evaluation process, utilizing OpenAI Evals, has provided valuable insights and learnings for improving the capabilities of large language models.
-
-We eagerly anticipate OpenAI's feedback on our experiment and look forward to contributing to the development of more reliable and effective AI systems. To explore the details of our evaluation and follow its progress, you can check out the open pull request here. Together, we can continue advancing the boundaries of AI and fostering responsible AI usage.
+We look forward to OpenAI’s response to our experiment and contributing towards the evolution of robust AI systems. For a closer look at our evaluation and its updates, visit the open pull request. Together, let's drive AI innovation responsibly.
 
 [Github Pull Request](https://github.com/openai/evals/pull/981)
