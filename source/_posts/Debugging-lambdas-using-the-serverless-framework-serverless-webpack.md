@@ -1,7 +1,6 @@
 ---
 title: Debugging lambdas using the serverless framework + serverless-webpack.
 date: 2017-12-17 17:30:00
-tags: serverless
 ---
 Our team has started to use the [serverless-framework](https://serverless.com/) to create microservices. We have built API's for basic CRUD features to full fledged ETL processes which pipe our microservice data back to our reporting database. This framework saves us a lot of time and gives us guidelines to organize our lambda's and AWS resources into categorized services. We use the [serverless-offline plugin](https://github.com/dherault/serverless-offline) to run our lambdas in a local environment and we use it alongside our test suite. One thing that we were missing with this framework was the ability to use [visual studio debugging](https://code.visualstudio.com/docs/editor/debugging) support with nodejs. It's a beautiful thing to be able to see what's going on in your app at runtime. As a team, we missed dropping in `debugger`.
 

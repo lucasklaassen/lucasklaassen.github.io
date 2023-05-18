@@ -1,7 +1,6 @@
 ---
 title: Angular 6 Rollbar Source Maps
 date: 2018-05-29 19:10:00
-tags: angular
 ---
 
 [Link To Github Repo](https://github.com/lucasklaassen/angular-rollbar-source-maps)

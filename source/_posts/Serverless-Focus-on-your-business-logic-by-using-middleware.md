@@ -1,7 +1,6 @@
 ---
 title: 'Serverless: Focus on your business logic by using middleware.'
 date: 2018-03-03 10:30:00
-tags: serverless
 ---
 
 It's easy to shoot yourself in the foot with serverless technologies.

@@ -1,7 +1,6 @@
 ---
 title: Teaching myself to code and saving some money
 date: 2017-12-31 10:30:00
-tags: coding
 ---
 
 
