@@ -2,7 +2,6 @@
 menu:
   Home: /
   Archives: /archives
-  Categories: /categories
   Github:
     url: https://github.com/lucasklaassen
     icon: github
