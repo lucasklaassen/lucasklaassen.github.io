@@ -13,6 +13,8 @@
     
 
     
+        <meta name="description" content="Our team has started to use the serverless-framework to create microservices. We have built API’s for basic CRUD features to full fledged ETL processe"/>
+    
 
     <!--Author-->
     
@@ -21,10 +23,12 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Hexo"/>
+        <meta property="og:title" content="Debugging lambdas using the serverless framework + serverless-webpack."/>
     
 
     <!--Open Graph Description-->
+    
+        <meta property="og:description" content="Our team has started to use the serverless-framework to create microservices. We have built API’s for basic CRUD features to full fledged ETL processe"/>
     
 
     <!--Open Graph Site Name-->
@@ -32,7 +36,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="website"/>
+        <meta property="og:type" content="article"/>
     
 
     <!--Page Cover-->
@@ -51,7 +55,7 @@
 
     <!-- Title -->
     
-    <title>Archives: 2023 - Hexo</title>
+    <title>Debugging lambdas using the serverless framework + serverless-webpack. - Hexo</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -155,49 +159,76 @@
 </nav>
 
     <!-- Main Content -->
-    
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
 
-<!-- Page Header -->
-<!-- Set your background image for this header in the theme's configuration: index_cover -->
 <header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>2023</h1>
+                <div class="post-heading">
+                    <h1>Debugging lambdas using the serverless framework + serverless-webpack.</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2017-12-17
+                        
+                    </span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+
+<a href="/tags/serverless/">#serverless</a>
+
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                </div>
             
-                <div class="post-preview">
-    <a href="/2023/05/17/Teaching-myself-to-code-and-saving-some-money/">
-        <h1 class="post-title archive">
-            Teaching myself to code and saving some money
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2023-05-17
-    </p>
-</div>
+
+            <!-- Gallery -->
             
-            <div class="archive-before-pagination"></div>
-            <ul class="pager">
-    
-    
-</ul>
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p>Our team has started to use the <a target="_blank" rel="noopener" href="https://serverless.com/">serverless-framework</a> to create microservices. We have built API’s for basic CRUD features to full fledged ETL processes which pipe our microservice data back to our reporting database. This framework saves us a lot of time and gives us guidelines to organize our lambda’s and AWS resources into categorized services. We use the <a target="_blank" rel="noopener" href="https://github.com/dherault/serverless-offline">serverless-offline plugin</a> to run our lambdas in a local environment and we use it alongside our test suite. One thing that we were missing with this framework was the ability to use <a target="_blank" rel="noopener" href="https://code.visualstudio.com/docs/editor/debugging">visual studio debugging</a> support with nodejs. It’s a beautiful thing to be able to see what’s going on in your app at runtime. As a team, we missed dropping in <code>debugger</code>.</p>
+<p>We use the <a target="_blank" rel="noopener" href="https://github.com/serverless-heaven/serverless-webpack">serverless-webpack plugin</a> to bundle our project before we deploy to AWS. This initially appeared to add a layer of complexity to debugging. After reading through this <a target="_blank" rel="noopener" href="https://github.com/serverless-heaven/serverless-webpack/issues/42#issuecomment-288845943">thread</a> however, we saw the light.</p>
+<p>All we needed to do was update our <a target="_blank" rel="noopener" href="https://gist.github.com/lucasklaassen/7c18b28d8c4d692db439ca367e973db0">webpack.config.js</a> with <code>devtool: &#39;source-map&#39;</code>. <a target="_blank" rel="noopener" href="https://gist.github.com/lucasklaassen/6b09ae7ee5542f2a69c494a66362fc4b">Here is a copy of our launch.json file</a> which you can use within Visual Studio Code to get debugging support setup.</p>
+<p>If you have any comments or questions please reach out on the gist’s provided or <a href="mailto:lucasklaassen1@gmail.com">send me an email.</a></p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
+            
         </div>
     </div>
-</div>
-
+</article>
 
     <!-- Footer -->
     <hr />
