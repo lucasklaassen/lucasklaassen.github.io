@@ -21,7 +21,7 @@ The dataset used for our evaluation was a modified version of the Stanford Quest
 
 This section will detail the technical process of how we extracted a unique set of questions from the larger SQuAD2.0 dataset. We'll provide a walkthrough of the Node.js script used to parse through the dataset and curate our subset of examples.
 
-```markdown
+```javascript
 /* SQuAD2.0 data converter
 
 BEFORE PROCEEDING: Download train.json from the official repo:
@@ -41,7 +41,7 @@ In this initial part of the script, we're loading the `fs` (file system) and `st
 
 The next chunk of code is our `Transform` stream, which is used to parse and reformat each line of the input data:
 
-```markdown
+```javascript
 const processLine = new Transform({
   objectMode: true,
   transform(line, _, done) {
@@ -78,7 +78,7 @@ The `transform` function parses each line into JSON and checks for the question'
 
 Finally, we parse the entire input file, iterate over the contents, and selectively write the questions we're interested in to our output file:
 
-```markdown
+```javascript
 const parsedFile = JSON.parse(inputFile);
 console.log(parsedFile);
 
@@ -88,9 +88,8 @@ for (let i = 0; i < parsedFile.data.length; i++) {
     const context = paragraph.context;
     // Generate a diverse training set by picking only 2 questions from each topic
     // Ensure an equal balance of unsolvable and solvable questions
-    // Randomly select
+    // Randomly select questions
 
- questions
     if (context.length > 1500 || context.length < 500 || Math.random() < 0.98) {
       return;
     }
@@ -118,7 +117,7 @@ Taking these failure logs, we devised a new script that parses these logs, ident
 
 Here's the script that accomplishes this task:
 
-```markdown
+```javascript
 /*
   Grab the file from the last run: /tmp/evallogs/<idxxx_gpt-3.5-turbo_impossible_detector>.jsonl
   Rename it to run.jsonl and put it in a folder called logs/ within this folder.
@@ -139,7 +138,7 @@ The script begins by importing the required modules and setting up the streams f
 
 Then we create a `Transform` stream, similar to the one in `convert.js`, which essentially copies each line from the input file to the output file.
 
-```markdown
+```javascript
 const processLine = new Transform({
   objectMode: true,
   transform(line, _, done) {
@@ -162,7 +161,7 @@ const processLine = new Transform({
 
 Next, we create a function `parseLines` that identifies and processes the failures from the log. The function looks for the 'match' lines where `correct` is false (meaning the model got the answer wrong), and pairs each one with its preceding 'prompt' line to preserve the context of the failed question. 
 
-```markdown
+```javascript
 const parseLines = (line, previousLine) => {
   if(line && previousLine && !JSON.parse(previousLine).spec && JSON.parse(line).type === "match" && !JSON.parse(line).data.correct) {
     const promptData = JSON.parse(previousLine).data;
@@ -176,7 +175,7 @@ const parseLines = (line, previousLine) => {
 
 Finally, we use Node's `readline` interface to read the input file line by line, calling `parseLines` for each one. The results are piped to the output file.
 
-```markdown
+```javascript
 const lineLimit = 1500;
 
 const rl = readline.createInterface({ input: inputFile, crlfDelay: Infinity });
