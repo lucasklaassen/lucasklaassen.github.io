@@ -13,6 +13,9 @@
     
 
     
+        <meta name="description" content="Link To Github Repo
+Rollbar is a great tool that helps shed light on errors that occur within your code. However, when you minify your javascript code"/>
+    
 
     <!--Author-->
     
@@ -21,10 +24,13 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Lucas Klaassen"/>
+        <meta property="og:title" content="Angular 6 Rollbar Source Maps"/>
     
 
     <!--Open Graph Description-->
+    
+        <meta property="og:description" content="Link To Github Repo
+Rollbar is a great tool that helps shed light on errors that occur within your code. However, when you minify your javascript code"/>
     
 
     <!--Open Graph Site Name-->
@@ -32,7 +38,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="website"/>
+        <meta property="og:type" content="article"/>
     
 
     <!--Page Cover-->
@@ -51,7 +57,7 @@
 
     <!-- Title -->
     
-    <title>Archives: 2018 - Lucas Klaassen</title>
+    <title>Angular 6 Rollbar Source Maps - Lucas Klaassen</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -155,62 +161,78 @@
 </nav>
 
     <!-- Main Content -->
-    
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
 
-<!-- Page Header -->
-<!-- Set your background image for this header in the theme's configuration: index_cover -->
 <header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>2018</h1>
+                <div class="post-heading">
+                    <h1>Angular 6 Rollbar Source Maps</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2018-05-29
+                        
+                    </span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+
+<a href="/tags/angular/">#angular</a>
+
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                </div>
             
-                <div class="post-preview">
-    <a href="/2018/05/29/Angular-6-Rollbar-Source-Maps/">
-        <h1 class="post-title archive">
-            Angular 6 Rollbar Source Maps
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2018-05-29
-    </p>
-</div>
+
+            <!-- Gallery -->
             
-                <div class="post-preview">
-    <a href="/2018/03/03/Serverless-Focus-on-your-business-logic-by-using-middleware/">
-        <h1 class="post-title archive">
-            Serverless: Focus on your business logic by using middleware.
-        </h1>
-    </a>
-    <p class="post-meta archive">
-        <!-- Date and Author -->
-        
-        2018-03-03
-    </p>
-</div>
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p><a target="_blank" rel="noopener" href="https://github.com/lucasklaassen/angular-rollbar-source-maps">Link To Github Repo</a></p>
+<p>Rollbar is a great tool that helps shed light on errors that occur within your code. However, when you minify your javascript code for deployment, it is hard to debug exceptions that arise in a production environment.</p>
+<p>Luckily for us, <a target="_blank" rel="noopener" href="https://docs.rollbar.com/docs/source-maps">Rollbar allows us to upload our javascript source maps</a> so that we can see metadata from the exception including the original source filename, line number, method name, and code snippet.</p>
+<p>Unfortunately for us, Rollbar does not have a streamlined process for uploading these source maps within an Angular 6 deployment pipeline. There is a <a target="_blank" rel="noopener" href="https://github.com/thredup/rollbar-sourcemap-webpack-plugin">webpack solution</a> but this requires you to use <code>ng eject</code> to gain access to make changes to the webpack configuration file.</p>
+<p>I built a script that can loop through the javascript map files within your dist folder and upload them to Rollbar when you build your Angular 6 application. After the javascript source map files have been uploaded to Rollbar via their API, it wipes them out from the dist folder to prevent them from being deployed to production. (Although a user can deobfuscate your code without source maps, I recommend you always cover all of your bases)</p>
+<p>If you have any followup questions or comments, <a href="mailto:lucasklaassen1@gmail.com">send me an email.</a></p>
+
+
+                
+            </div>
+
+            <!-- Comments -->
             
-            <div class="archive-before-pagination"></div>
-            <ul class="pager">
-    
-    
-</ul>
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+
+
+                </div>
+            
         </div>
     </div>
-</div>
-
+</article>
 
     <!-- Footer -->
     <hr />
