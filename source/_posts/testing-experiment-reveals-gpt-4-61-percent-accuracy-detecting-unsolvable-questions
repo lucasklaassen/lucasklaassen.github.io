@@ -1,5 +1,5 @@
 ---
-title: 'Testing Experiment Reveals GPT-4''s 46% Accuracy in Detecting Unsolvable Questions'
+title: 'Testing Experiment Reveals GPT-4''s 61% Accuracy in Detecting Unsolvable Questions'
 date: 2023-05-17 18:41:04
 ---
 
@@ -205,7 +205,7 @@ As GPT-4 becomes accessible to individual developers and organizations, it is be
 
 ## 6. Sharing the Results of the Evaluation:
 
-Upon discovering questions that stumped GPT-3.5, we aimed to test GPT-4's performance and submit the results for OpenAI to work on its enhancement. Our initial evaluation showed GPT-4 outperforming its predecessor, GPT-3.5, with an accuracy of 0.46 compared to 0.13.
+Upon discovering questions that stumped GPT-3.5, we aimed to test GPT-4's performance and submit the results for OpenAI to work on its enhancement. Our initial evaluation showed GPT-4 outperforming its predecessor, GPT-3.5, with an accuracy of 0.61 compared to 0.01.
 
 Our “Unsolvable Questions Evaluation” highlighted GPT-4's progress in discerning complex questions and its confabulation issue. Using OpenAI Evals, we gained crucial insights into enhancing large language models.
 
