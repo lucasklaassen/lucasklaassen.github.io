@@ -28,28 +28,6 @@ Next step is to email [lucasklaassen1@gmail.com](mailto:lucasklaassen1@gmail.com
 
 I'm comfortable at all layers of the stack: from API backends to SPA frontends, Cloud infrastructure, and AI integrations.
 
-## Examples
-
-**Performance for Thinkific:** Improved customer search endpoint from 160s to 350ms (99.7% improvement) by diagnosing the bottleneck and migrating to Elasticsearch.
-
-**Performance for MBRU:** Course with 800,000+ enrollments couldn't load progress reports. Diagnosed expensive SQL queries, added strategic indexes, enabled report viewing and export.
-
-**AI Integration for Thinkific:** Architected company-wide AI service for RAG, learning assistant chatbot with evals, and Gen AI features across multiple teams.
-
-**AI Education for Thinkific:** Trained entire engineering organization on AI-assisted coding with Cursor AI, achieving 4/5 star rating and measurable adoption.
-
-**Observability for Thinkific:** Set up monitoring dashboard to track 502 errors, identified root cause within first month, reduced errors to zero. Became the "New Relic master" finding sore spots across all systems.
-
-**Technical Debt Prioritization for Thinkific:** Created database audit identifying short and long-term risks. Set technical strategy and roadmap that led to completion of 4+ years of accumulated technical debt migrations.
-
-**AWS Optimization for Thinkific:** Reduced Redis cluster CPU from 100% to 3% and cut cache refresh times from minutes to milliseconds, dramatically reducing infrastructure costs and improving reliability.
-
-**Developer Experience for Thinkific:** Built load testing scripts for critical user journeys and monitoring tools to visualize results. Created CLI tool for generating branch names from JIRA tickets across multiple repos. Led Frontend Guild initiatives for React Hooks testing and TypeScript adoption.
-
-**MMA Fantasy:** Built full-stack fantasy sports platform (React Native, Node.js, PostgreSQL) from scratch with 2,000+ monthly active users. Real-time chat, localization, LLM research insights.
-
----
-
 > Lucas is an incredibly intelligent yet humble leader who has made a tremendous impact as Thinkific's Lead Architect. He has a remarkable ability to balance big-picture thinking with agility and pragmatism, always mindful of business impact and the risks of over-investment. Most notably, he has led the charge on our AI strategy, delivering an agnostic service that unlocked our UX transformation and ability to ship AI-powered features with ease. He's a brilliant thinker, an excellent collaborator, and a key contributor to our success.
 >
 > — Britt Skolovy, Previously Senior Director of Product @ Thinkific
