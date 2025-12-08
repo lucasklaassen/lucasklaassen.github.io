@@ -8,4 +8,4 @@ We use the [serverless-webpack plugin](https://github.com/serverless-heaven/serv
 
 All we needed to do was update our [webpack.config.js](https://gist.github.com/lucasklaassen/7c18b28d8c4d692db439ca367e973db0) with `devtool: 'source-map'`. [Here is a copy of our launch.json file](https://gist.github.com/lucasklaassen/6b09ae7ee5542f2a69c494a66362fc4b) which you can use within Visual Studio Code to get debugging support setup.
 
-If you have any comments or questions please reach out on the gist's provided or [send me an email.](mailto:lucasklaassen1@gmail.com)
+If you have any comments or questions please reach out on the gist's provided or [send me an email.](mailto:hello@lucasklaassen.com)

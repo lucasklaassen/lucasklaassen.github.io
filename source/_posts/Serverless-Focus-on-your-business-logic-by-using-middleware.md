@@ -41,4 +41,4 @@ We've found that this pattern has reduced noise and promoted code reuse across o
 
 Our team is on a mission to identify the ways in which other teams are protecting themselves against problems like these whilst utilizing serverless technologies.
 
-If you have any comments or questions please reach out on the gist's provided or [send me an email](mailto:lucasklaassen1@gmail.com).
+If you have any comments or questions please reach out on the gist's provided or [send me an email](mailto:hello@lucasklaassen.com).

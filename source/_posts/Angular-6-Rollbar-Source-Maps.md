@@ -13,4 +13,4 @@ Unfortunately for us, Rollbar does not have a streamlined process for uploading 
 
 I built a script that can loop through the javascript map files within your dist folder and upload them to Rollbar when you build your Angular 6 application. After the javascript source map files have been uploaded to Rollbar via their API, it wipes them out from the dist folder to prevent them from being deployed to production. (Although a user can deobfuscate your code without source maps, I recommend you always cover all of your bases)
 
-If you have any followup questions or comments, [send me an email.](mailto:lucasklaassen1@gmail.com)
+If you have any followup questions or comments, [send me an email.](mailto:hello@lucasklaassen.com)

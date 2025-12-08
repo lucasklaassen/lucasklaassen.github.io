@@ -15,4 +15,4 @@ Navigating through the Angular repo we found that they have documentation outlin
 
 We copied this setup and customized it for our build URL, while also adding some other customizations specific to our company needs. Luckily for us, we were already using circle-ci to build our projects but these steps could be copied to other continuous integration pipelines. Kudos to the Angular team for being so self-documenting and opening up this build pipeline to the world. We are forever grateful!
 
-If you have any followup questions or comments, [send me an email](mailto:lucasklaassen1@gmail.com).
+If you have any followup questions or comments, [send me an email](mailto:hello@lucasklaassen.com).

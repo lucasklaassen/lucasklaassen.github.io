@@ -24,7 +24,7 @@ I can deliver the most value if your problem fits one of the following:
 
 **Work with an architect who can both code and lead.**
 
-Next step is to email [lucasklaassen1@gmail.com](mailto:lucasklaassen1@gmail.com) and tell me which problems you're dealing with, and we'll set up an intro call.
+Next step is to email [hello@lucasklaassen.com](mailto:hello@lucasklaassen.com) and tell me which problems you're dealing with, and we'll set up an intro call.
 
 I'm comfortable at all layers of the stack: from API backends to SPA frontends, Cloud infrastructure, and AI integrations.
 
