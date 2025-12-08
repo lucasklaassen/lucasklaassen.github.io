@@ -203,7 +203,7 @@
 <p>Reading through it, we found a job called “aio_preview” which is building their project, creating a tarball and saving it as an artifact. They then trigger a webhook to the following URL: <a target="_blank" rel="noopener" href="https://ngbuilds.io/circle-build">https://ngbuilds.io/circle-build</a>. The documentation says that this request will trigger their build server to grab the newly saved build artifact from circle-ci, copy it to the server and then trigger their bot to comment on the PR with a link composed of the commit SHA and PR number.</p>
 <p>Navigating through the Angular repo we found that they have documentation outlining how to configure their <a target="_blank" rel="noopener" href="https://github.com/angular/angular/blob/master/aio/aio-builds-setup/docs/_TOC.md">build server with Docker</a>.</p>
 <p>We copied this setup and customized it for our build URL, while also adding some other customizations specific to our company needs. Luckily for us, we were already using circle-ci to build our projects but these steps could be copied to other continuous integration pipelines. Kudos to the Angular team for being so self-documenting and opening up this build pipeline to the world. We are forever grateful!</p>
-<p>If you have any followup questions or comments, <a href="mailto:lucasklaassen1@gmail.com">send me an email</a>.</p>
+<p>If you have any followup questions or comments, <a href="mailto:hello@lucasklaassen.com">send me an email</a>.</p>
 
 
                 
