@@ -44,3 +44,9 @@ I'm comfortable at all layers of the stack: from API backends to SPA frontends, 
 >
 > — Sarah Greig, Director of Product at Pixieset
 
+---
+
+> Lucas joined us as a consultant at a pivotal moment, and his expertise was a game-changer for our engineering organization. I personally learned a lot from him regarding AI Governance, and our sessions were incredibly productive. It was a great opportunity to cross-reference our internal practices with the high-level AI development workflows he has implemented with his own teams. His consultancy work was instrumental in helping us scale AI usage internally, empowering a significant portion of our engineering team to master and adopt these new processes effectively. Lucas is a brilliant strategic partner who knows exactly how to translate complex AI concepts into scalable engineering results. I highly recommend his services to any organization looking to level up their AI capabilities.
+>
+> — Pedro Cavalero, Software Engineer | International Career Mentor | Dev Instructor & Speaker | AI DevX
+
