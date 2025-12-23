@@ -28,6 +28,12 @@ Next step is to email [hello@lucasklaassen.com](mailto:hello@lucasklaassen.com) 
 
 I'm comfortable at all layers of the stack: from API backends to SPA frontends, Cloud infrastructure, and AI integrations.
 
+> Lucas joined us as a consultant at a pivotal moment, and his expertise was a game-changer for our engineering organization. I personally learned a lot from him regarding AI Governance, and our sessions were incredibly productive. It was a great opportunity to cross-reference our internal practices with the high-level AI development workflows he has implemented with his own teams. His consultancy work was instrumental in helping us scale AI usage internally, empowering a significant portion of our engineering team to master and adopt these new processes effectively. Lucas is a brilliant strategic partner who knows exactly how to translate complex AI concepts into scalable engineering results. I highly recommend his services to any organization looking to level up their AI capabilities.
+>
+> — Pedro Cavalero, Software Engineer @ Super.com
+
+---
+
 > Lucas is an incredibly intelligent yet humble leader who has made a tremendous impact as Thinkific's Lead Architect. He has a remarkable ability to balance big-picture thinking with agility and pragmatism, always mindful of business impact and the risks of over-investment. Most notably, he has led the charge on our AI strategy, delivering an agnostic service that unlocked our UX transformation and ability to ship AI-powered features with ease. He's a brilliant thinker, an excellent collaborator, and a key contributor to our success.
 >
 > — Britt Skolovy, Previously Senior Director of Product @ Thinkific
