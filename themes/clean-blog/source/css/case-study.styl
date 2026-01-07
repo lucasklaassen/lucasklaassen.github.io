@@ -1,0 +1,170 @@
+body.layout-case-study
+  @extend .serif
+  .navbar-custom
+    display none
+  .intro-header
+    display none
+
+.case-study
+  padding-top 20px
+
+  .case-study-nav
+    @extend .sans-serif
+    display flex
+    justify-content space-between
+    align-items center
+    margin-bottom 60px
+    padding 20px 0
+    border-bottom 1px solid #eee
+    .site-title
+      font-size 20px
+      font-weight 700
+      color #000
+      text-decoration none
+    .nav-links
+      a
+        font-size 16px
+        color #666
+        text-decoration none
+        margin-left 25px
+        &:hover
+          color #000
+
+  .case-study-header
+    text-align left
+    margin-bottom 60px
+    .client-label
+      @extend .sans-serif
+      font-size 18px
+      color #666
+      margin-bottom 10px
+      display block
+    h1
+      @extend .sans-serif
+      font-size 48px
+      font-weight 700
+      line-height 1.2
+      margin-bottom 20px
+      color #000
+    .subtitle
+      font-size 24px
+      color #333
+      line-height 1.4
+      max-width 800px
+
+  .hero-container
+    background linear-gradient(135deg, #1a73e8 0%, #0d47a1 100%)
+    padding 20px
+    border-radius 24px
+    margin-bottom 60px
+    display flex
+    justify-content center
+    align-items center
+    a
+      display block
+      width 100%
+      &:hover
+        cursor zoom-in
+    img
+      width 100%
+      max-width 100%
+      height auto
+      border-radius 12px
+      box-shadow 0 20px 40px rgba(0,0,0,0.2)
+
+  .about-section
+    display grid
+    grid-template-columns repeat(3, 1fr)
+    gap 40px
+    margin-bottom 80px
+    padding-bottom 40px
+    border-bottom 1px solid #eee
+    .about-item
+      h3
+        @extend .sans-serif
+        font-size 16px
+        font-weight 600
+        text-transform uppercase
+        letter-spacing 1px
+        color #999
+        margin-bottom 15px
+      p, ul
+        font-size 18px
+        color #333
+        margin 0
+      ul
+        list-style none
+        padding 0
+        li
+          margin-bottom 5px
+
+  .section-content
+    margin-bottom 80px
+    h2
+      @extend .sans-serif
+      font-size 32px
+      font-weight 700
+      margin-bottom 30px
+    .content-body
+      font-size 20px
+      line-height 1.6
+      color #444
+      margin-bottom 40px
+    
+    .visual-block
+      background #f8f9fa
+      padding 40px
+      border-radius 20px
+      margin-top 40px
+      a
+        display block
+        &:hover
+          cursor zoom-in
+      img
+        width 100%
+        border-radius 10px
+
+  .checkmark-list
+    list-style none
+    padding 0
+    li
+      position relative
+      padding-left 35px
+      margin-bottom 20px
+      font-size 18px
+      &:before
+        content '✓'
+        position absolute
+        left 0
+        color #28a745
+        font-weight bold
+        font-size 22px
+
+  .bullet-list
+    list-style none
+    padding 0
+    li
+      position relative
+      padding-left 25px
+      margin-bottom 20px
+      font-size 18px
+      line-height 1.6
+      &:before
+        content '•'
+        position absolute
+        left 0
+        color #1a73e8
+        font-weight bold
+        font-size 24px
+
+@media (max-width: 768px)
+  .case-study
+    .case-study-header
+      h1
+        font-size 32px
+    .about-section
+      grid-template-columns 1fr
+      gap 20px
+    .hero-container
+      padding 20px
+

@@ -1,0 +1,70 @@
+<div class="container">
+    <div class="row">
+        <div class="col-lg-10 col-lg-offset-1 col-md-12">
+            <article class="case-study">
+                <!-- Navigation -->
+                <nav class="case-study-nav">
+                    <a href="<%- url_for('/') %>" class="site-title"><%= config.author || config.title %></a>
+                    <div class="nav-links">
+                        <a href="<%- url_for('/') %>">Home</a>
+                    </div>
+                </nav>
+
+                <!-- Header Section -->
+                <header class="case-study-header">
+                    <% if (page.client_logo) { %>
+                        <div class="client-logo">
+                            <img src="<%- url_for(page.client_logo) %>" alt="<%= page.client %>" style="max-height: 40px; width: auto; margin-bottom: 20px;">
+                        </div>
+                    <% } else if (page.client) { %>
+                        <span class="client-label"><%= page.client %></span>
+                    <% } %>
+                    <h1><%- page.title %></h1>
+                    <% if (page.subtitle) { %>
+                        <p class="subtitle"><%- page.subtitle %></p>
+                    <% } %>
+                </header>
+
+                <!-- Hero Visual -->
+                <% if (page.hero_image) { %>
+                    <div class="hero-container" style="<% if(page.hero_bg) { %>background: <%= page.hero_bg %>;<% } %>">
+                        <a href="<%- url_for(page.hero_image) %>" data-featherlight="image">
+                            <img src="<%- url_for(page.hero_image) %>" alt="<%= page.title %>">
+                        </a>
+                    </div>
+                <% } %>
+
+                <!-- About Metadata -->
+                <section class="about-section">
+                    <div class="about-item">
+                        <h3>Client</h3>
+                        <p><%= page.client || 'N/A' %></p>
+                    </div>
+                    <div class="about-item">
+                        <h3>Industry</h3>
+                        <p><%= page.industry || 'N/A' %></p>
+                    </div>
+                    <div class="about-item">
+                        <h3>Services</h3>
+                        <ul>
+                            <% if (page.services && Array.isArray(page.services)) { %>
+                                <% page.services.forEach(function(service){ %>
+                                    <li><%= service %></li>
+                                <% }); %>
+                            <% } else { %>
+                                <li><%= page.services || 'N/A' %></li>
+                            <% } %>
+                        </ul>
+                    </div>
+                </section>
+
+                <!-- Main Content -->
+                <div class="case-study-content">
+                    <%- page.content %>
+                </div>
+            </article>
+        </div>
+    </div>
+</div>
+
+

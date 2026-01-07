@@ -4,49 +4,46 @@ layout: hire
 comment: false
 ---
 
-I've spent over 11 years as a software developer and architect, progressing from a full-stack developer to Lead Architect at Thinkific. I've set technical strategy, led teams through complex migrations, and architected and shipped company-wide AI initiatives from the ground up.
+**I help engineering leaders move past the "Chatbot Prototype" phase to build secure, governed, and production-ready AI infrastructure.**
 
-Today, I consult with companies to solve technical challenges—from architectural strategy to hands-on AI integration. I keep my skills sharp by building my passion project MMA Fantasy, a full-stack mobile app with 2,000+ monthly active users.
+I’ve spent over 11 years as a software developer and architect, progressing from a full-stack developer to Lead Architect at Thinkific. Today, I specialize in the intersection of traditional software architecture and modern AI integration. I don’t just "add an LLM." I architect the systems, governance, and workflows that make AI a scalable part of your business.
 
-I can deliver the most value if your problem fits one of the following:
+I keep my skills sharp by building my passion project **MMA Fantasy**, a full-stack mobile app with 2,000+ monthly active users, where I dogfood the latest in AI-native development.
 
-1. **Performance.** You bring me your slow app or struggling database. I diagnose the bottleneck, deliver an actionable plan, and either guide your team through the fix or implement it. 
+I deliver the most value when helping organizations solve these specific AI challenges:
 
-2. **AI Integration.** You want to add LLMs to your product or adopt AI tooling. I architect and build the system (RAG pipelines, chatbots, AI agents) and train your team on best practices. 
+1. **AI-Native Engineering Operations.** AI is a force multiplier for your team, but only if they know how to use it. I lead "Enablement Sprints", using mob programming to fix real bugs live, to bridge the competency gap and unlock the ROI of your existing infrastructure and MCP integrations. In a [recent 5-week engagement with Super.com](/case-studies/super-com/), this approach drove a [244% increase in agentic workflow adoption](/case-studies/super-com/) across an 80+ person engineering org.
 
-3. **Technical Debt Audit.** You have a backlog of tech debt and don't know what to tackle first. I implement observability, identify weak points, and deliver a prioritized roadmap that balances tech debt with product goals. 
+2. **RAG & Agentic Workflows.** You want to move beyond "basic tab completion" to sophisticated AI features. I architect production-ready RAG pipelines and teach teams to shift their mental model from "Author" to "Architect & Reviewer," ensuring agents stay "on a leash" while delivering high-intent results.
 
-4. **AWS Optimization.** Your AWS bill is climbing or you suspect inefficiency. I audit your setup, optimize costs, and help migrate to components that make sense for your scale. 
+3. **AI Strategy & Governance.** You need to move from fragmented experiments to a cohesive strategy. I help you implement governance frameworks, such as the "Rule Lifecycle" protocol, that ensure security and reliability.
 
-5. **Developer Experience.** Your engineers are slowed down by tooling or workflows. I identify friction points and build solutions—load testing infrastructure, CLI tools, testing strategies. 
+4. **Holistic AI Architecture (The Foundation).** AI requires a rock-solid foundation. I leverage my background in **AWS Optimization and Performance Tuning** to ensure your AI infrastructure is cost-efficient and performant. I also provide specialized support for **Technical Hiring**, helping you vet and secure permanent AI leadership in record time.
 
-6. **Prototype.** You have a problem or feature idea nobody has time for. I build an end-to-end production-ready prototype your team can run with. 
+**Work with an architect who can both set the strategy and write the code.**
 
-**Work with an architect who can both code and lead.**
-
-Next step is to email [hello@lucasklaassen.com](mailto:hello@lucasklaassen.com) and tell me which problems you're dealing with, and we'll set up an intro call.
-
-I'm comfortable at all layers of the stack: from API backends to SPA frontends, Cloud infrastructure, and AI integrations.
-
-> Lucas joined us as a consultant at a pivotal moment, and his expertise was a game-changer for our engineering organization. I personally learned a lot from him regarding AI Governance, and our sessions were incredibly productive. It was a great opportunity to cross-reference our internal practices with the high-level AI development workflows he has implemented with his own teams. His consultancy work was instrumental in helping us scale AI usage internally, empowering a significant portion of our engineering team to master and adopt these new processes effectively. Lucas is a brilliant strategic partner who knows exactly how to translate complex AI concepts into scalable engineering results. I highly recommend his services to any organization looking to level up their AI capabilities.
->
-> — Pedro Cavalero, Software Engineer @ Super.com
+Next step is to email [hello@lucasklaassen.com](mailto:hello@lucasklaassen.com). Tell me about your current AI roadmap or the architectural bottlenecks slowing you down, and we'll set up an intro call.
 
 ---
 
-> Lucas is an incredibly intelligent yet humble leader who has made a tremendous impact as Thinkific's Lead Architect. He has a remarkable ability to balance big-picture thinking with agility and pragmatism, always mindful of business impact and the risks of over-investment. Most notably, he has led the charge on our AI strategy, delivering an agnostic service that unlocked our UX transformation and ability to ship AI-powered features with ease. He's a brilliant thinker, an excellent collaborator, and a key contributor to our success.
+> "I was extremely impressed with everything I saw, and heard positive feedback all around. I'm thrilled to hear the team embraced you."
 >
-> — Britt Skolovy, Previously Senior Director of Product @ Thinkific
+> Ryan Fox, CTO @ Super.com
 
 ---
 
-> Lucas is highly skilled in software architecture, consistently delivering high quality code that is both efficient and scalable. He is a natural problem-solver and always goes above and beyond to find the best solutions to complex technical challenges. I've seen first hand multiple instances in which he pulled together cross functional teams and guided them towards a solution to deliver the required requirements to the business.
+> "These are pretty awesome results for such a short engagement and they should continue to improve with more folks understanding the tools & helping others. Really appreciate the time & effort here."
 >
-> — Sávio Lucena, Engineering Leader | Software Architect
+> Erika Zimmerman, VP of Engineering @ Super.com
 
 ---
 
-> Lucas is not only strong technically, but he also demonstrated a level of thoughtfulness about the customer problem we were looking to solve, and what the best solution would be beyond just the code.
+> Lucas has a remarkable ability to balance big-picture thinking with agility and pragmatism. Most notably, he has **led the charge on our AI strategy**, delivering an agnostic service that unlocked our UX transformation and ability to ship AI-powered features with ease. 
 >
-> — Sarah Greig, Director of Product at Pixieset
+> Britt Skolovy, Previously Senior Director of Product @ Thinkific
 
+---
+
+> Lucas is a brilliant strategic partner who knows exactly how to translate complex AI concepts into scalable engineering results. His work was instrumental in helping us scale AI usage internally, empowering a significant portion of our engineering team to master these new processes.
+>
+> Pedro Cavalero, Software Engineer @ Super.com
