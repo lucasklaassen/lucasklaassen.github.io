@@ -12,7 +12,8 @@
 }
 .serif,
 body,
-.intro-header .post-heading .meta {
+.intro-header .post-heading .meta,
+body.layout-case-study {
   font-family: 'Lora', 'Times New Roman', serif;
 }
 .sans-serif,
@@ -28,7 +29,12 @@ h6,
 .intro-header .post-heading .subheading,
 .btn,
 .pager li > a,
-.pager li > span {
+.pager li > span,
+.case-study .case-study-nav,
+.case-study .case-study-header .client-label,
+.case-study .case-study-header h1,
+.case-study .about-section .about-item h3,
+.case-study .section-content h2 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 body {
@@ -614,4 +620,190 @@ pre .clojure .title {
 }
 pre .deletion {
   color: #dc322f;
+}
+body.layout-case-study .navbar-custom {
+  display: none;
+}
+body.layout-case-study .intro-header {
+  display: none;
+}
+.case-study {
+  padding-top: 20px;
+}
+.case-study .case-study-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+.case-study .case-study-nav .site-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+}
+.case-study .case-study-nav .nav-links a {
+  font-size: 16px;
+  color: #666;
+  text-decoration: none;
+  margin-left: 25px;
+}
+.case-study .case-study-nav .nav-links a:hover {
+  color: #000;
+}
+.case-study .case-study-header {
+  text-align: left;
+  margin-bottom: 60px;
+}
+.case-study .case-study-header .client-label {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 10px;
+  display: block;
+}
+.case-study .case-study-header h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: #000;
+}
+.case-study .case-study-header .subtitle {
+  font-size: 24px;
+  color: #333;
+  line-height: 1.4;
+  max-width: 800px;
+}
+.case-study .hero-container {
+  background: linear-gradient(135deg, #1a73e8 0%, #0d47a1 100%);
+  padding: 20px;
+  border-radius: 24px;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.case-study .hero-container a {
+  display: block;
+  width: 100%;
+}
+.case-study .hero-container a:hover {
+  cursor: zoom-in;
+}
+.case-study .hero-container img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+.case-study .about-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  margin-bottom: 80px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #eee;
+}
+.case-study .about-section .about-item h3 {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #999;
+  margin-bottom: 15px;
+}
+.case-study .about-section .about-item p,
+.case-study .about-section .about-item ul {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+}
+.case-study .about-section .about-item ul {
+  list-style: none;
+  padding: 0;
+}
+.case-study .about-section .about-item ul li {
+  margin-bottom: 5px;
+}
+.case-study .section-content {
+  margin-bottom: 80px;
+}
+.case-study .section-content h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.case-study .section-content .content-body {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #444;
+  margin-bottom: 40px;
+}
+.case-study .section-content .visual-block {
+  background: #f8f9fa;
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 40px;
+}
+.case-study .section-content .visual-block a {
+  display: block;
+}
+.case-study .section-content .visual-block a:hover {
+  cursor: zoom-in;
+}
+.case-study .section-content .visual-block img {
+  width: 100%;
+  border-radius: 10px;
+}
+.case-study .checkmark-list {
+  list-style: none;
+  padding: 0;
+}
+.case-study .checkmark-list li {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.case-study .checkmark-list li:before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #28a745;
+  font-weight: bold;
+  font-size: 22px;
+}
+.case-study .bullet-list {
+  list-style: none;
+  padding: 0;
+}
+.case-study .bullet-list li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+.case-study .bullet-list li:before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #1a73e8;
+  font-weight: bold;
+  font-size: 24px;
+}
+@media (max-width: 768px) {
+  .case-study .case-study-header h1 {
+    font-size: 32px;
+  }
+  .case-study .about-section {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .case-study .hero-container {
+    padding: 20px;
+  }
 }
