@@ -4,25 +4,41 @@ layout: hire
 comment: false
 ---
 
-**I help engineering leaders move past the "Chatbot Prototype" phase to build secure, governed, and production-ready AI infrastructure.**
+**I help teams adopt AI in reliable, practical ways that increase their daily output—whether that's developers writing better code or back-office teams automating manual work.**
 
-I’ve spent over 11 years as a software developer and architect, progressing from a full-stack developer to Lead Architect at Thinkific. Today, I specialize in the intersection of traditional software architecture and modern AI integration. I don’t just "add an LLM." I architect the systems, governance, and workflows that make AI a scalable part of your business.
+Most companies struggle to move AI from experimentation to reliable daily use. I solve this by embedding with teams across your organization to build and deploy AI workflows that actually enhance productivity.
 
-I keep my skills sharp by building my passion project **MMA Fantasy**, a full-stack mobile app with 2,000+ monthly active users, where I dogfood the latest in AI-native development.
+I've spent over 11 years as a software developer and architect, progressing from a full-stack developer to Lead Architect at Thinkific. I keep my skills sharp by building **MMA Fantasy**, a full-stack mobile app with 2,000+ monthly active users, where I dogfood the latest in AI-native development.
 
-I deliver the most value when helping organizations solve these specific AI challenges:
+## How I Work
 
-1. **AI-Native Engineering Operations.** AI is a force multiplier for your team, but only if they know how to use it. I lead "Enablement Sprints", using mob programming to fix real bugs live, to bridge the competency gap and unlock the ROI of your existing infrastructure and MCP integrations. In a [recent 5-week engagement with Super.com](/case-studies/super-com/), this approach drove a [244% increase in agentic workflow adoption](/case-studies/super-com/) across an 80+ person engineering org.
+I don't just consult and leave. I embed with your teams to:
 
-2. **RAG & Agentic Workflows.** You want to move beyond "basic tab completion" to sophisticated AI features. I architect production-ready RAG pipelines and teach teams to shift their mental model from "Author" to "Architect & Reviewer," ensuring agents stay "on a leash" while delivering high-intent results.
+1. **Train engineers on AI-assisted development.** I run hands-on enablement sprints using mob programming to fix real bugs live. In a [recent 5-week engagement with Super.com](/case-studies/super-com/), this approach drove a [244% increase in agentic workflow adoption](/case-studies/super-com/) across an 80+ person engineering org.
 
-3. **AI Strategy & Governance.** You need to move from fragmented experiments to a cohesive strategy. I help you implement governance frameworks, such as the "Rule Lifecycle" protocol, that ensure security and reliability.
+2. **Map manual processes across departments.** I meet with Sales, Finance, HR, Marketing, and Support teams to identify repetitive tasks that can be automated.
 
-4. **Holistic AI Architecture (The Foundation).** AI requires a rock-solid foundation. I leverage my background in **AWS Optimization and Performance Tuning** to ensure your AI infrastructure is cost-efficient and performant. I also provide specialized support for **Technical Hiring**, helping you vet and secure permanent AI leadership in record time.
+3. **Build and deploy automation agents.** I create roadmaps for each department, then work alongside teams to build, deploy, and refine agents that solve real problems.
+
+4. **Iterate until the AI is genuinely useful.** I stay involved through deployment and iteration cycles to ensure the AI enhances workflows rather than creating new friction.
+
+## Projects I Take On
+
+**Company-wide AI enablement for engineering teams.** Elevate your developers' capabilities through structured training and hands-on practice with AI-assisted coding tools.
+
+**Department-by-department automation roadmaps + agent development.** From identifying opportunities to deploying production agents, I work across your organization to automate back-office processes.
+
+**End-to-end AI architecture.** When you need production-ready RAG pipelines, agentic workflows, or AI infrastructure, I architect and build the systems—ensuring they're reliable, secure, and maintainable.
+
+## Who I Work With
+
+I work with **tech companies** looking to accelerate their teams' AI adoption and **traditional businesses** seeking to automate manual processes across their organizations. 
+
+Whether you're a CTO wanting your engineering team to leverage AI better, or a COO looking to automate repetitive work across departments, I bring both strategic vision and hands-on execution.
 
 **Work with an architect who can both set the strategy and write the code.**
 
-Next step is to email [hello@lucasklaassen.com](mailto:hello@lucasklaassen.com). Tell me about your current AI roadmap or the architectural bottlenecks slowing you down, and we'll set up an intro call.
+Next step is to email [hello@lucasklaassen.com](mailto:hello@lucasklaassen.com). Tell me about the manual processes slowing your teams down or the AI capabilities you want to unlock, and we'll set up an intro call.
 
 ---
 

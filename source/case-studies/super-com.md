@@ -35,10 +35,10 @@ date: 2026-01-07 12:00:00
 </div>
 
 <ul class="bullet-list">
-<li><strong>18 Mob Programming Sessions</strong>: We moved beyond theory, gathering teams to fix real bugs live. These sessions showcased how to “Keep Agents On A Leash” and utilize MCP integrations (Datadog, Jira) to give the Agent context.</li>
 <li><strong>"Keeping Agents On a Leash"</strong>: We shifted the mental model from "Author" to "Architect & Reviewer". We taught engineers to avoid "Lazy Velocity" by applying a strict workflow: providing the AI with clear intent and constraints (the leash) while retaining full responsibility for verification and system design.</li>
+<li><strong>18 Mob Programming Sessions</strong>: We moved beyond theory, gathering teams to fix real bugs live. These sessions showcased how to “Keep Agents On A Leash” and utilize MCP integrations (Datadog, Jira) to give the Agent context.</li>
 <li><strong>Rule Lifecycle Governance</strong>: We empowered all teams with a clear protocol for when to create, update, and promote rules. This transformed "hidden" personal rules into shared global assets strengthened by an AI Guild review board.</li>
-<li><strong>Technical Hiring</strong>: We defined the technical bar for the permanent AI Lead, vetting and securing the winning candidate in under 3 weeks.</li>
+<li><strong>Technical Hiring</strong>: Established the technical standards and evaluation criteria for the permanent AI Lead role.</li>
 </ul>
 </section>
 
@@ -55,7 +55,7 @@ date: 2026-01-07 12:00:00
 <div class="col-md-6">
 <ul class="checkmark-list">
 <li><strong>Unlocked Tooling ROI</strong>: Increased adoption of MCP & DevEx tools, ensuring engineers are finally utilizing the robust infrastructure the platform team has already built.</li>
-<li><strong>Secured the AI Lead</strong>: Successfully identified and vetted the permanent AI Lead in under 3 weeks.</li>
+<li><strong>Secured the AI Lead</strong>: Successfully identified and vetted the permanent AI Lead, ensuring the strategy has a long-term owner.</li>
 </ul>
 </div>
 </div>
@@ -63,7 +63,7 @@ date: 2026-01-07 12:00:00
 
 <div style="margin-top: 80px; padding: 40px; background: #f8f9fa; border-radius: 20px; border-left: 5px solid #1a73e8;">
 <blockquote style="border: none; padding: 0; text-align: left; font-size: 22px; margin-bottom: 20px;">
-"I know we didn't get to work together directly too much but I was extremely impressed with everything I saw, and heard positive feedback all around. I'm thrilled to hear the team embraced you."
+"I was extremely impressed with everything I saw, and heard positive feedback all around. I'm thrilled to hear the team embraced you."
 </blockquote>
 <p style="font-weight: 700; margin: 0;">Ryan Fox</p>
 <p style="color: #666; margin-bottom: 40px;">CTO, Super.com</p>
@@ -72,5 +72,11 @@ date: 2026-01-07 12:00:00
 "Thank you so much, these are pretty awesome results for such a short engagement and they should continue to improve with more folks understanding the tools & helping others. Really appreciate the time & effort here."
 </blockquote>
 <p style="font-weight: 700; margin: 0;">Erika Zimmerman</p>
-<p style="color: #666; margin: 0;">VP of Engineering, Super.com</p>
+<p style="color: #666; margin-bottom: 40px;">VP of Engineering, Super.com</p>
+
+<blockquote style="border: none; padding: 0; text-align: left; font-size: 22px; margin-bottom: 20px;">
+"Lucas joined us as a consultant at a pivotal moment, and his expertise was a game-changer for our engineering organization. I personally learned a lot from him regarding AI Governance, and our sessions were incredibly productive."
+</blockquote>
+<p style="font-weight: 700; margin: 0;">Pedro Cavalero</p>
+<p style="color: #666; margin: 0;">Software Engineer, Super.com</p>
 </div>
