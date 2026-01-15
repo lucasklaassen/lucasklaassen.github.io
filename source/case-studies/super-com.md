@@ -2,6 +2,7 @@
 title: How Super.com Scaled an AI-First Engineering Culture in 5 Weeks
 subtitle: Bridging the gap between 80+ engineers and their tools to drive a 244% increase in agentic workflow adoption.
 layout: case-study
+permalink: /case-studies/super-com/
 client: Super.com
 client_logo: img/super.com.png
 industry: Fintech / Travel
