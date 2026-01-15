@@ -63,3 +63,15 @@ Next step is to email [hello@lucasklaassen.com](mailto:hello@lucasklaassen.com).
 > Lucas is a brilliant strategic partner who knows exactly how to translate complex AI concepts into scalable engineering results. His work was instrumental in helping us scale AI usage internally, empowering a significant portion of our engineering team to master these new processes.
 >
 > Pedro Cavalero, Software Engineer @ Super.com
+
+---
+
+> Lucas is highly skilled in software architecture, consistently delivering high quality code that is both efficient and scalable. He is a natural problem-solver and always goes above and beyond to find the best solutions to complex technical challenges. I've seen first hand multiple instances in which he pulled together cross functional teams and guided them towards a solution to deliver the required requirements to the business.
+>
+> Sávio Lucena, Engineering Leader | Software Architect
+
+---
+
+> Lucas is not only strong technically, but he also demonstrated a level of thoughtfulness about the customer problem we were looking to solve, and what the best solution would be beyond just the code.
+>
+> Sarah Greig, Director of Product at Pixieset
