@@ -1,10 +1,6 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
-  Github:
-    url: https://github.com/lucasklaassen
-    icon: github
+  Projects: /projects
 
 # Title on top left of menu. Leave empty to use main blog title
 menu_title: LMK Management INC.
