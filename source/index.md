@@ -66,6 +66,12 @@ Next step is to email [hello@lucasklaassen.com](mailto:hello@lucasklaassen.com).
 
 ---
 
+> Lucas is thoughtful, encouraging, and deeply effective in meeting engineers where they are—and helping them work smarter. His impact was both immediate and lasting. One of his most valuable contributions was the internal documentation he created on efficient, agent-driven development workflows. These guides are resources that I now share with new team members and interns, allowing them to benefit from his expertise long after his consulting engagement ended.
+>
+> Tiffany Williams, Ph.D., Senior Software Engineer @ Super.com
+
+---
+
 > Lucas is highly skilled in software architecture, consistently delivering high quality code that is both efficient and scalable. He is a natural problem-solver and always goes above and beyond to find the best solutions to complex technical challenges. I've seen first hand multiple instances in which he pulled together cross functional teams and guided them towards a solution to deliver the required requirements to the business.
 >
 > Sávio Lucena, Engineering Leader | Software Architect
