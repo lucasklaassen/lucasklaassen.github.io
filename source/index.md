@@ -8,7 +8,7 @@ comment: false
 
 Most companies struggle to move AI from experimentation to reliable daily use. I solve this by embedding with teams across your organization to build and deploy AI workflows that actually enhance productivity.
 
-I've spent over 11 years as a software developer and architect, progressing from a full-stack developer to Lead Architect at Thinkific. I keep my skills sharp by building **MMA Fantasy**, a full-stack mobile app with 2,000+ monthly active users, where I dogfood the latest in AI-native development.
+I've spent over 11 years as a software developer and architect, progressing from a full-stack developer to Lead Architect at Thinkific. I keep my skills sharp by building **MMA Fantasy**, a full-stack mobile app with 15,000+ monthly active users, where I dogfood the latest in AI-native development.
 
 ## How I Work
 
