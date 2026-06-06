@@ -8,7 +8,7 @@ comment: false
 
 [Visit MMA Fantasy](https://www.mma-fantasy.com)
 
-A full-stack mobile application that brings fantasy sports to mixed martial arts. Built with React Native (Expo), Node.js, and PostgreSQL, MMA Fantasy serves **2,000+ monthly active users** who compete in fantasy leagues for UFC events.
+A full-stack mobile application that brings fantasy sports to mixed martial arts. Built with React Native (Expo), Node.js, and PostgreSQL, MMA Fantasy serves **15,000+ users** who compete in fantasy leagues for UFC events.
 
 **Key Features:**
 - Real-time scoring during live UFC events
