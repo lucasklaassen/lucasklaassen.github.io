@@ -24,3 +24,7 @@ This is not a public app. There are no external users, no sign-up flow, and no h
 ## Disconnect
 
 To revoke access, go to Intuit → Settings → Connected Apps and disconnect this integration. You will be redirected to the [disconnect notice](/legal/qbo-integration/disconnected/) page.
+
+## Contact
+
+Questions: [hello@lucasklaassen.com](mailto:hello@lucasklaassen.com)

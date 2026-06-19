@@ -37,6 +37,10 @@ You can revoke access at any time via Intuit → Settings → Connected Apps. Se
 
 This integration is provided as-is for internal use. No warranty is expressed or implied.
 
+## Contact
+
+Questions: [hello@lucasklaassen.com](mailto:hello@lucasklaassen.com)
+
 ## Related
 
 - [Overview](/legal/qbo-integration/)

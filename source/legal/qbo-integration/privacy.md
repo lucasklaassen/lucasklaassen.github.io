@@ -35,7 +35,7 @@ To disconnect, revoke access in Intuit → Settings → Connected Apps. Local to
 
 ## Contact
 
-Questions about this policy: [lucas@lucasklaassen.com](mailto:lucas@lucasklaassen.com)
+Questions about this policy: [hello@lucasklaassen.com](mailto:hello@lucasklaassen.com)
 
 ## Related
 
